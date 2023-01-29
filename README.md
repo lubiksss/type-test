@@ -5,3 +5,5 @@
 3. 어쨋거나 nextron 여기도 타입스크립트 설정이 module이 esm이기 때문에 esm으로 바뀌는데,
 4. 근데 templ은 nextron설정에 의해서 다시 commonjs로 바뀌는거같음.(확인함 바벨 설정에 targetLibrary = commonjs2)
 5. 그래서 pure esm모듈들은 실행이 안됨. ex) clipboardy@v3
+6. 그래서 어쨋거나 어떻게 우회해서 쓰냐, clipboardy@v2는 뭔가 commonjs도 지원하는거같더라..
+7. 일단은 잘모르니까 이런식으로 쓰자.
